@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+	<style>
+			body{
+				background-repeat: no-repeat;
+				background-size: 100em;
+			}
+			#mov{
+				position: relative;
+				left:450px;
+				font-size: xx-large;
+			}
+    </style>
+    <body background="op.jpg">
+        <form method="post" action="" id="mov">
+			<h2>Register</h2>
+            <label>First Name: <input type="text" name="Firstname" placeholder="firstname" style="border-radius:30px;" required></label>
+	        <label>Middle Name: <input type="text" name="Middlename" placeholder="middlename" style="border-radius:30px;"></label>
+	        <label>Last Name: <input type="text" name="Lastname" placeholder="lastname" style="border-radius:30px;" required></label><br><br>
+	        <label for="">Gender: </label>
+	            <select id="gender" name="gender">
+		            <option>Male</option>
+	                <option>Female</option>
+	                <option>Other</option>
+	            </select><br><br>
+	        <label>Email: <input type="email" name="email" placeholder="your email" style="border-radius:30px;" required></label><br><br>
+	        <label>Password: <input type="password" name="password" placeholder="your password" style="border-radius:30px;" required></label><br><br>
+	        <label>Confirm Password: <input type="password" name="password" placeholder="Re-enter password" style="border-radius:30px;" required></label><br><br>
+	        <label for="">Birthday: </label>
+	            <select id="birthday" name="Month">
+		            <option>Month</option>
+	                <option>Jan</option>
+	                <option>Feb</option>
+		            <option>Mar</option>
+		            <option>Apr</option>
+	            </select>
+	            <select id="birthday" name="Day">
+		            <option>Day</option>
+	                <option>1</option>
+	                <option>2</option>
+		            <option>3</option>
+		            <option>4</option>
+	            </select>
+	            <select id="birthday" name="Year">
+		            <option>Year</option>
+	                <option>2001</option>
+	                <option>2002</option>
+		            <option>2003</option>
+		            <option>2004</option>
+	            </select><br><br>
+	        <label>Address: <textarea name="address" rows="3" cols="30" style="border-radius:30px;" required></textarea></label><br><br>
+	        <label>Phone Number: <input type="tel" name="phone" style="border-radius:30px;height: 30px;" required></label><br><br>
+	        <input type="checkbox" id="terms" name="terms" style ="width: 50px;height:30px;"required>
+	        <label for="terms">I accept the terms and conditions</label><br>
+	        <input type="submit" value="Sign up" style="border-radius: 30px;width:100px;height:50px;position:relative;left:200px;">
+        </form>
+    </body>
+</html>
