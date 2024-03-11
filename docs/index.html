@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <style>
+        .grid-container{
+                display:grid;
+                grid-template-columns:4fr 0.25fr 0.25fr 0.25fr 0.25fr;
+                background-color: darkgray;
+            }
+            body{
+                background-repeat: no-repeat;
+                background-size: 100em;
+            }
+            #mov{
+                position: relative;
+                left:550px;
+                top:220px;
+                font-size: xx-large;
+            }
+    </style>
+    <body background="op.jpg">
+        <div class="grid-container">
+            <div class="grid-item" style="font-size:x-large;font-weight: bold;">Foodie</div>
+            <div class="grid-item" style="font-size: large;"><a href="Home.html">Home</a></div>
+            <div class="grid-item" style="font-size: large;"><a href="Menu.html">Menu</a></div>
+            <div class="grid-item" style="font-size: large;"><a href="About.html">About</a></div>
+            <div class="grid-item" style="font-size: large;"><a href="Login.html">Login</a></div>
+            </div>
+        <form method="post" action="" id="mov">
+            <label for="name">Username:    <input type="text" id="name"  name="uname" placeholder="Enter name" style="border-radius:30px;width:110px;height:25px;" required></label><br><br>
+            <label for="pass">Password:    <input type="text" id="pass" name="password" placeholder="Enter password" style="border-radius:30px;width:110px;height:25px;" required></label><br><br>
+            <a href="Password.html">Forgot Password?</a><br><br>
+            If you don't have an account? <a href="Register.html">Sign Up</a><br><br>
+            <input type="Submit" value="Login" style="border-radius: 30px;width: 70px;height:30px;">
+            <input type="reset" value="Clear" style="border-radius: 30px;width:70px;height:30px;">
+        </form>
+    </body>
+</html>
